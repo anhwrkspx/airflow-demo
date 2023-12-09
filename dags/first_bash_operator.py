@@ -17,7 +17,7 @@ with DAG(
 ) as dag:
     task1= BashOperator(
         task_id ='task11',
-        bash_command = 'echo fuck yall, I go to the heaven'
+        bash_command = 'echo who read this is a dawg'
     )
 
     task1
